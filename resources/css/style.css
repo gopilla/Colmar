@@ -90,7 +90,6 @@ body{
 .practical{
   display: inline-block;
   width: 40%;
-  padding-left: 1rem;
   border: 1px solid pink;
 }
 .information{
@@ -101,29 +100,33 @@ body{
 .info-section{
   display: flex;
   width: 423px;
-  padding: 0 0 1rem 0;
+  padding: 0 0 1rem 1rem;
   border: 1px solid yellow;
-
-
+}
+.info-section, .two{
+  padding-top: 1rem;
 }
 .smallimage{
   width: 35%;
-  border: 1px solid aqua;
-
-
+}
+.guestphoto{
+  width: 65%;
+  height: auto;
+}
+.guestphoto img{
+  width: 100%;
+  height: auto;
+  display: block;
 
 }
 .smallimage img{
   width: 100%;
   height: auto;
   display: block;
-  border: 1px solid blue;
 }
 .info{
   display: inline-block;
-
   padding: 1rem 0 0 1rem;
-  border: 1px solid green;
 }
 .info span{
   font-weight: bold;
@@ -143,4 +146,14 @@ body{
 .Emanuel{
   padding-top: 2rem;
   font-size: 0.9rem;
+}
+#three{
+  display: flex;
+  background-color: white;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 1px solid red;
+  width: 423px;
+  background-color: silver;
 }
