@@ -9,6 +9,9 @@ header{
   justify-content: space-between;
 
 }
+body{
+  font-size: 1rem;
+}
 .logo{
   display: flex;
   justify-content: center;
@@ -21,8 +24,6 @@ header{
 
 .colmar{
   font-weight: bolder;
-}
-.logo span{
 }
 
 .menu{
@@ -53,20 +54,35 @@ header{
 }
 .calltoaction{
   display: inline-block;
-  line-height: 2.5rem;
-
   padding-left: 1rem;
-  width: 420px;
+  width: 40%;
   border: 1px solid green;
 }
+.call{
+  padding-top: 8rem;
+  padding-bottom: 2.5rem;
+  border: 1px solid purple;
+  line-height: 2.5rem;
+  width: 80%;
 
+}
+.call h1{
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-bottom: 1rem;
+}
+.call h2{
+  font-size: 1.5rem;
+}
 .button{
+
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: grey;
-  width: 280px;
+  width: 80%;
   color: white;
+  border: 1px solid green;
 }
