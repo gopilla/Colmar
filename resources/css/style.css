@@ -43,7 +43,7 @@ body{
 
 .bigimage{
   width: 60%;
-  padding-right: 1.5rem;
+  margin-right: 1.5rem;
   border: 1px solid green;
 }
 .bigimage img{
@@ -85,4 +85,62 @@ body{
   width: 80%;
   color: white;
   border: 1px solid green;
+}
+
+.practical{
+  display: inline-block;
+  width: 40%;
+  padding-left: 1rem;
+  border: 1px solid pink;
+}
+.information{
+  display: flex;
+  padding: 2rem 0 2rem 1.5rem;
+  border: 1px dashed pink;
+}
+.info-section{
+  display: flex;
+  width: 423px;
+  padding: 0 0 1rem 0;
+  border: 1px solid yellow;
+
+
+}
+.smallimage{
+  width: 35%;
+  border: 1px solid aqua;
+
+
+
+}
+.smallimage img{
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid blue;
+}
+.info{
+  display: inline-block;
+
+  padding: 1rem 0 0 1rem;
+  border: 1px solid green;
+}
+.info span{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.info p{
+  padding-top: 0.5rem;
+  border: 1px solid black;
+}
+
+.one h1{
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.Emanuel{
+  padding-top: 2rem;
+  font-size: 0.9rem;
 }
