@@ -36,9 +36,7 @@ body{
 
 .banner{
   display: flex;
-
   padding: 2rem 0 2rem 1.5rem;
-  background-color: silver;
   border: 1px solid red;
 }
 
@@ -88,12 +86,12 @@ body{
   border: 1px solid green;
 }
  /* In this section on my browser Google Chrome if I applied the given width: 423px, I could not obtain the same visual image as given in the mock. Therefore I made after trial and error the necessary modifications to keep the original visual design. */
-.information{
+.bigarea{
   display: flex;
   padding: 2rem 0 2rem 1.5rem;
   border: 1px dashed pink;
 }
-.practical{
+.smallarea{
   display: inline-block;
   width: 38%;
   border: 1px solid pink;
@@ -154,25 +152,28 @@ body{
 }
 #three{
   display: flex;
-  background-color: white;
   padding-left: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   border: 1px solid red;
-  background-color: silver;
 }
 
 .courses{
   display: inline-block;
-padding: 2rem 5rem 2rem 5rem;
-background-color: silver;}
+padding: 0rem 5rem 2rem 5rem;
+}
 .title{
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 2rem;
+  padding-top: 2rem;
   font-size: 2rem;
   font-weight: bold;
+}
+.title.thesis{
+  padding-bottom: 0;
+
 }
 .item-container{
   display: flex;
@@ -214,4 +215,21 @@ background-color: silver;}
 }
 .text-item{
   padding: 1rem 0 1.5rem 1rem;
+}
+.bigimage video{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.grey{
+  background-color: silver;
+}
+.footer{
+  padding: 1rem 1rem 3rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navfooter span{
+  padding-right: 1rem;
 }
