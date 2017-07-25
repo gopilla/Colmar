@@ -36,7 +36,7 @@ body{
 
 .banner{
   display: flex;
-  width: 100%;
+
   padding: 2rem 0 2rem 1.5rem;
   background-color: silver;
   border: 1px solid red;
@@ -87,10 +87,9 @@ body{
   color: white;
   border: 1px solid green;
 }
-
+ /* In this section on my browser Google Chrome if I applied the given width: 423px, I could not obtain the same visual image as given in the mock. Therefore I made after trial and error the necessary modifications to keep the original visual design. */
 .information{
   display: flex;
-  width: 100%;
   padding: 2rem 0 2rem 1.5rem;
   border: 1px dashed pink;
 }
@@ -131,9 +130,9 @@ body{
   width: 100%;
   padding: 1rem 0 0 1rem;
 }
-.info span{
-  font-weight: bold;
+.subtitle{
   font-size: 1.5rem;
+  font-weight: bold;
 }
 .info p{
   padding-top: 0.5rem;
@@ -161,4 +160,58 @@ body{
   padding-bottom: 1rem;
   border: 1px solid red;
   background-color: silver;
+}
+
+.courses{
+  display: inline-block;
+padding: 2rem 5rem 2rem 5rem;
+background-color: silver;}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.item-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.items{
+  width: 30%;
+  background-color: white;
+}
+.items.first,
+.items.second,
+.items.third{
+  margin-bottom: 1rem;
+}
+.items.first,
+.items.second,
+.items.fourth,
+.items.fifth{
+  margin-right: 2rem;
+}
+.items.third
+.items.sixth{
+  margin-right: 0;
+}
+.image-item{
+  height: 220px;
+}
+.image-item img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.coursename{
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+.coursename h1{
+  padding-bottom: 0.5rem;
+}
+.text-item{
+  padding: 1rem 0 1.5rem 1rem;
 }
