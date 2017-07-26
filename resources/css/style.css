@@ -124,6 +124,9 @@ a{
 .smallimage{
   width: 70%;
 }
+.mobile-smallimage{
+  display: none;
+}
 .guestphoto{
   width: 68%;
   height: auto;
@@ -132,7 +135,6 @@ a{
   width: 100%;
   height: auto;
   display: block;
-
 }
 .smallimage img{
   width: 100%;
@@ -279,6 +281,7 @@ padding: 0rem 5rem 2rem 5rem;
 }
 .call{
   line-height: 2rem;
+  padding-top: 2rem;
 }
 .call h1{
   padding-top: 2rem;
@@ -292,8 +295,69 @@ padding: 0rem 5rem 2rem 5rem;
 .button{
   width: 80%;
   align-items: center;
-  margin: 1.5rem 1rem 2rem 1rem;
+  margin: 0 1rem 2rem 1rem;
+
+}
+.bigarea{
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+.bigimage, .mobile-noimage{
+  display: none;
+}
+.smallarea{
+  width: 100%;
+  border: 1px solid black;
+}
+.info-section{
+  display: block;
+  padding: 0;
+  width: 100%;
+  height: auto;
 
 }
 
+.smallimage{
+  display: none;
+
+}
+.info{
+  display: block;
+  width: 100%;
+}
+.info span, .info p{
+  padding-left: 1rem;
+  padding-top: 0;
+}
+.mobile-smallimage{
+  display: block;
+
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid red;
+
+
+}
+.mobile-smallimage img{
+  width: 100%;
+  height: auto;
+  display: block;
+
+}
+.courses{
+  width: 100%;
+  display: block
+  border: 1px solid red;
+}
+.item-container{
+  display: block;
+  padding-left: 0;
+  width: 100%;
+  flex-wrap: nowrap;
+  border: 1px solid black;
+}
+.items{
+  width: 100%;
+  }
 }
