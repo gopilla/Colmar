@@ -176,7 +176,9 @@ a{
   padding-bottom: 1rem;
   border-radius: 7px 0 0 7px;
 }
-
+#mobile-guest{
+  display: none;
+}
 .courses{
   display: inline-block;
 padding: 0rem 5rem 2rem 5rem;
@@ -272,7 +274,6 @@ padding: 0rem 5rem 2rem 5rem;
   }
 .mobile-banner{
   display: block;
-  padding: 0;
 }
 .bigimage{
   width: 100%;
@@ -294,9 +295,7 @@ padding: 0rem 5rem 2rem 5rem;
 }
 .button{
   width: 80%;
-  align-items: center;
   margin: 0 1rem 2rem 1rem;
-
 }
 .bigarea{
   display: block;
@@ -308,14 +307,12 @@ padding: 0rem 5rem 2rem 5rem;
 }
 .smallarea{
   width: 100%;
-  border: 1px solid black;
 }
 .info-section{
   display: block;
   padding: 0;
   width: 100%;
   height: auto;
-
 }
 
 .smallimage{
@@ -327,24 +324,31 @@ padding: 0rem 5rem 2rem 5rem;
   width: 100%;
 }
 .info span, .info p{
-  padding-left: 1rem;
+  padding-left: 2rem;
   padding-top: 0;
+  padding-bottom: 1rem;
 }
 .mobile-smallimage{
   display: block;
-
-  width: 100%;
+  width: 93%;
+  height: auto;
   padding: 1rem;
-  border: 1px solid red;
-
-
 }
 .mobile-smallimage img{
   width: 100%;
   height: auto;
   display: block;
-
 }
+#three{
+  display: none;
+}
+#mobile-guest{
+  display: block;
+}
+#mobile-guest, .info{
+}
+
+
 .courses{
   width: 100%;
   display: block
