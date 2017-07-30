@@ -12,13 +12,13 @@
   <body>
     <header class="desktop-header">
       <div class="logo">
-        <img src="./resources/images/ic-logo.svg" alt="">
+        <img src="./resources/images/ic-logo.svg" alt="company logo a small lion">
         <span class="colmar">Colmar</span>
         <span>Academy</span>
 
       </div>
       <div class="menu">
-        <nav>
+        <nav role="presentation">
           <span>On campus</span>
           <span>Online</span>
           <span>For companies</span>
@@ -29,18 +29,18 @@
       </div>
     </header>
 
-    <header class="mobile-header">
-      <img src="./resources/images/ic-logo.svg" alt="">
-      <img src="./resources/images/ic-on-campus.svg" alt="">
-      <img src="./resources/images/ic-online.svg" alt="">
-      <img src="./resources/images/ic-login.svg" alt="">
+    <header class="mobile-header" aria-label="menu points">
+      <img src="./resources/images/ic-logo.svg" alt="company logo and homepage">
+      <img src="./resources/images/ic-on-campus.svg" alt="campus">
+      <img src="./resources/images/ic-online.svg" alt="companies ">
+      <img src="./resources/images/ic-login.svg" alt="login">
     </header>
 
     <!--This is the Banner section-->
 
     <div class="banner grey mobile-banner">
       <div class="bigimage">
-        <img src="./resources/images/banner.jpg" alt="">
+        <img src="./resources/images/banner.jpg" alt="girls studying together">
       </div>
 
       <div class="calltoaction">
@@ -50,7 +50,7 @@
         </div>
 
         <div class="button mobilebutton">
-        <span>Start here</span>
+        <span aria-label="button for applications">Start here</span>
         </div>
       </div>
     </div>
@@ -60,7 +60,7 @@
     <div class="bigarea">
 
       <div class="bigimage one" id="noimage">
-        <img src="./resources/images/information-main.jpg" alt="">
+        <img src="./resources/images/information-main.jpg" alt="a young man reading in the park">
         <h1>It doesn't hurt to keep practicing</h1>
         <p>Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsam urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique liguat.</p>
         <p class="Emanuel">Emanuel, Sr Strategist at Hiring.com</p>
@@ -70,7 +70,7 @@
         <!--first info section - Orientation-->
         <div class="info-section" id="one">
           <div class="smallimage">
-            <img src="./resources/images/information-orientation.jpg" alt="">
+            <img src="./resources/images/information-orientation.jpg" alt="people walking on the road">
           </div>
           <div class="info">
             <span class="subtitle">Orientation date</span>
@@ -81,7 +81,7 @@
         <!--second info section - Our campus-->
         <div class="info-section two">
           <div class="smallimage">
-            <img src="./resources/images/information-campus.jpg" alt="">
+            <img src="./resources/images/information-campus.jpg" alt="image of the campus hall">
           </div>
           <div class="info">
             <span class="subtitle">Our campus</span>
@@ -93,7 +93,7 @@
 
         <div class="grey" id="three">
           <div class="guestphoto">
-            <img src="./resources/images/information-guest-lecture.jpg" alt="">
+            <img src="./resources/images/information-guest-lecture.jpg" alt="image of a professor">
           </div>
           <div class="info">
             <span class="subtitle">Our guest lecture</span>
@@ -149,7 +149,7 @@
   <!--first item: SOftware Engineering-->
         <div class="items first">
           <div class="image-item">
-            <img src="./resources/images/course-software.jpg" alt="">
+            <img src="./resources/images/course-software.jpg" alt="image of computer screens">
             <div class="coursename">
               <h1 class="subtitle">Software Engineering</h1>
               <h1>COURSES</h1>
@@ -162,7 +162,7 @@
           <!--second item: Computer Art -->
         <div class="items second">
           <div class="image-item">
-            <img src="./resources/images/course-computer-art.jpg" alt="">
+            <img src="./resources/images/course-computer-art.jpg" alt="image of a mobile phone screen">
             <div class="coursename">
               <h1 class="subtitle">Computer Art</h1>
               <h1>COURSES</h1>
@@ -175,7 +175,7 @@
         <!--third item: Design-->
         <div class="items third">
           <div class="image-item">
-            <img src="./resources/images/course-design.jpg" alt="">
+            <img src="./resources/images/course-design.jpg" alt="image of someone holding an old-style design camera in hand">
             <div class="coursename">
               <h1 class="subtitle">Design</h1>
               <h1>COURSES</h1>
@@ -189,7 +189,7 @@
         <!--fourth item: Data-->
         <div class="items fourth">
           <div class="image-item">
-            <img src="./resources/images/course-data.jpg" alt="">
+            <img src="./resources/images/course-data.jpg" alt="image of an open laptop">
             <div class="coursename">
               <h1 class="subtitle">Data</h1>
               <h1>COURSES</h1>
@@ -202,7 +202,7 @@
         <!--fifth item: Business-->
         <div class="items fifth">
           <div class="image-item">
-            <img src="./resources/images/course-business.jpg" alt="">
+            <img src="./resources/images/course-business.jpg" alt="image of a chessboard">
             <div class="coursename">
                 <h1 class="subtitle">Business</h1>
                 <h1>COURSES</h1>
@@ -215,7 +215,7 @@
         <!--sixth item: Marketing-->
         <div class="items sixth">
           <div class="image-item">
-            <img src="./resources/images/course-marketing.jpg" alt="">
+            <img src="./resources/images/course-marketing.jpg" alt="image of someone looking at their digital watch">
             <div class="coursename">
               <h1 class="subtitle">Marketing</h1>
               <h1>COURSES</h1>
@@ -273,7 +273,7 @@
     <div class="bigarea ">
 
       <div class="bigimage video one">
-        <video src="./resources/videos/thesis.mp4" autoplay poster="">
+        <video aria-label="video of the latest thesis work" src="./resources/videos/thesis.mp4" autoplay poster="">
         </video>
         <h1>Reimagine Urban</h1>
         <p>Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsam urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.</p>
@@ -283,7 +283,7 @@
         <!--FIsma-->
         <div class="info-section grey rounded">
           <div class="smallimage">
-            <img src="./resources/images/information-orientation.jpg" alt="">
+            <img src="./resources/images/thesis-fisma.jpg" alt="someone drawing on paper and highlighting important design elements">
           </div>
           <div class="info">
             <span class="subtitle">Fisma: Design and</span>
@@ -293,7 +293,7 @@
         <!--Now and then-->
         <div class="info-section two">
           <div class="smallimage">
-            <img src="./resources/images/information-campus.jpg" alt="">
+            <img src="./resources/images/thesis-now-and-then.jpg" alt="image of a high tower">
           </div>
           <div class="info">
             <span class="subtitle">Now and then</span>
@@ -306,7 +306,7 @@
 
 <!--Footer-->
 
-     <div class="footer">
+     <footer>
        <span>© 2016 Colmar Academy. All rights reserved.</span>
        <div class="navfooter">
          <nav>
@@ -314,7 +314,7 @@
            <span>Privacy</span>
          </nav>
        </div>
-     </div>
+     </footer>
 
 
 
