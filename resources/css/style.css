@@ -261,7 +261,7 @@ padding: 0rem 5rem 2rem 5rem;
   display: none;
 }
 
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 780px){
   .desktop-header{
       display: none;
     }
