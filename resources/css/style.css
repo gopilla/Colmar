@@ -103,8 +103,6 @@ a{
 .bigarea{
   display: flex;
   padding: 2rem 0 2rem 1.5rem;
-
-
 }
 .smallarea{
   display: inline-block;
@@ -259,6 +257,9 @@ padding: 0rem 5rem 2rem 5rem;
 #mobilecourse{
   display: none;
 }
+.infosection-mobile{
+  display: none;
+}
 
 @media only screen and (max-width: 480px){
   .desktop-header{
@@ -280,6 +281,7 @@ padding: 0rem 5rem 2rem 5rem;
     width: 100%;
     height: 180px;
     overflow: hidden;
+    margin: 0;
   }
   .calltoaction{
     width: auto;
@@ -320,6 +322,10 @@ padding: 0rem 5rem 2rem 5rem;
 .mobilebutton:hover{
   background-color: rgb(310,98,36);
 }
+.coursebutton{
+  display: flex;
+  justify-content: flex-start;
+}
 .courses{
   display: none;
 }
@@ -331,8 +337,51 @@ padding: 0rem 5rem 2rem 5rem;
   display: flex;
   justify-content: center;
   padding: 0 1rem 0.5rem 1rem;
-  text-align: center;
+}
+.smallarea{
+  display: none;
+}
+#noimage{
+  display: none;
+}
+.bigimage, .video{
+  padding-bottom: 1.5rem;
+  padding-left: 0;
+  width: 100%;
+}
+.bigarea{
+  display: block;
+  padding: 0;
+}
 
+.bigimage video{
+  width: 100%;
+  display: block;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+
+
+}
+.infosection-mobile{
+  display: block;
+  padding: 1rem;
+  border: 1px solid white;
+
+}
+.info p{
+  padding-bottom: 1rem;
+}
+
+.infosection-mobile img{
+  width: 100%;
+  height: auto;
+}
+.navfooter{
+  display: none;
+}
+.footer{
+  padding: 1rem 0 1rem 1rem;
+  display: block;
 }
 
 
