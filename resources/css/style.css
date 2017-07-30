@@ -348,6 +348,7 @@ padding: 0rem 5rem 2rem 5rem;
   padding-bottom: 1.5rem;
   padding-left: 0;
   width: 100%;
+  height: auto;
 }
 .bigarea{
   display: block;
@@ -357,16 +358,16 @@ padding: 0rem 5rem 2rem 5rem;
 .bigimage video{
   width: 100%;
   display: block;
+  height: auto;
   padding-top: 2rem;
   padding-bottom: 1.5rem;
-
-
+}
+.video h1, .video p{
+  display: none;
 }
 .infosection-mobile{
   display: block;
   padding: 1rem;
-  border: 1px solid white;
-
 }
 .info p{
   padding-bottom: 1rem;
@@ -376,12 +377,12 @@ padding: 0rem 5rem 2rem 5rem;
   width: 100%;
   height: auto;
 }
+.footer{
+  padding: 0 0 1rem 1rem;
+  display: block;
+}
 .navfooter{
   display: none;
-}
-.footer{
-  padding: 1rem 0 1rem 1rem;
-  display: block;
 }
 
 
